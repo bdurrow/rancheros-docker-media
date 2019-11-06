@@ -171,7 +171,7 @@ In shell on local computer (Linux subsystem for Windows 10, (Ubuntu) to get SSH 
 - `sudo ros config set rancher.network.interfaces.eth0.gateway 10.0.0.138`
 - `sudo ros config set rancher.network.interfaces.eth0.mtu 1500`
 - `sudo ros config set rancher.network.interfaces.eth0.dhcp false`
-- `sudo ros config set rancher.network.nameservers "['8.8.8.8','4.2.2.2','10.0.0.138']"`
+- `sudo ros config set rancher.network.dns.nameservers "['8.8.8.8','4.2.2.2','10.0.0.138']"`
 - `sudo ros config get rancher.network`
 - `sudo reboot`
 
