@@ -187,7 +187,7 @@ This step creates a docker that makes your FreeNAS dataset available as a NFS sh
 - edit SERVER and SHARE (i for insert, esc for exit out of insert, :wq for quit with save)
 - `sudo reboot`
 - check that nfs share is now avilable, ssh in again and:
-- `sudu su`
+- `sudo su`
 - `cd /mnt/nfs-1/`
 
 
